@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Banking Application</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+    </div>
+    <div>
+      <label for="initial-balance">Initial Balance:</label>
+      <input type="number" id="initial-balance" min="0">
+    </div>
+    <div>
+      <label for="transaction-amount">Transaction Amount:</label>
+      <input type="number" id="transaction-amount">
+    </div>
+    <div>
+      <button id="deposit-button">Deposit</button>
+      <button id="withdraw-button">Withdraw</button>
+    </div>
+    <div>
+      <h2 id="balance"></h2>
+    </div>
+  </main>
+  </body>
+  <script src="app.js"></script>
+</html>
